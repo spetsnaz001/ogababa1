@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+main{
+    height: 105vh;
+    width: 100%;
+    /* background-color: lavenderblush; */
+}
+
+main .logo-section{
+    height: 40%;
+    width: 100%;
+    /* background-color: lightgreen; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-section .logo-con{
+    height: 93%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.form-section{
+    height: 55%;
+    /* background-color: coral; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-section .form{
+    height: 98%;
+    width: 30%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.form h2{
+    font-weight: lighter;
+    margin-top: 1.5em;
+}
+
+form input{
+    width: 96%;
+    height: 3em;
+    margin-top: 19px;
+    border: none;
+    outline: solid 1px lightgrey;
+    padding-left: 15px;
+}
+
+form .login{
+    width: 100%;
+    height: 3em;
+    background-color: #428bca;
+    border: none;
+    color: whitesmoke;
+    margin-top: 19px;
+}
+
+form .reset{
+    color: cornflowerblue;
+    font-size: 13px;
+    display: block;
+    text-align: center;
+    margin-top: 19px;
+    text-decoration: none;
+}
+
+form .last-part{
+    height: 3.5em;
+    width: 100%;
+    padding-top: 10px;
+    margin-top: 1em;
+    border-top: solid 1px whitesmoke;
+}
+
+.last-part span{
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.last-part .create{
+    height: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: whitesmoke;
+    border: none;
+    background-color: #428bca;
+}
